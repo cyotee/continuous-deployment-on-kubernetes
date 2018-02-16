@@ -43,7 +43,7 @@ spec:
         - name: JENKINS_OPTS
           valueFrom:
             secretKeyRef:
-              name: jenkins
+              name: jenkins-admin-password
               key: options
         - name: JAVA_OPTS
           value: '-Xmx1400m'
