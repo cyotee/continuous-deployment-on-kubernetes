@@ -24,7 +24,7 @@ spec:
       labels:
         app: master
     spec:
-      serviceAccountName: jenkins
+      serviceAccountName: jenkins-service-account
       containers:
       - name: master
         image: jenkins/jenkins:lts
